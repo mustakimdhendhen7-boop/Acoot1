@@ -1,0 +1,9 @@
+{
+  "name":"acoot-smart-books",
+  "version":"5.1.0",
+  "private":true,
+  "description":"Acoot Smart Books - Indian double-entry accounting with GST and AI receipt capture",
+  "scripts":{"start":"node server.js"},
+  "engines":{"node":">=20"},
+  "dependencies":{"@aws-sdk/client-s3":"^3.879.0","multer":"^2.0.2","pg":"^8.16.3"}
+}
